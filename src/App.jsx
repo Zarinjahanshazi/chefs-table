@@ -1,6 +1,9 @@
 
 import './App.css'
+import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
+import Recipe from './Components/Recipe/Recipe'
+import Recipes from './Components/Recipes/Recipes'
 
 function App() {
  
@@ -8,7 +11,10 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <h1 className='text-primary'>Vite + React</h1>
+      <Banner></Banner>
+
+      <Recipes></Recipes>
+      <Recipe></Recipe>
       
     </>
   )
