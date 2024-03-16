@@ -1,20 +1,45 @@
-
+import {CiClock2} from 'react-icons/ci'
+import { RiFireLine } from "react-icons/ri";
 import PropTypes from 'prop-types'
+import Ingredients from '../Ingredients/Ingredients'
 
-const Recipe = ({recipe,recipe_id,recipe_name,short_description,ingredients,preparing_time,calories}) => {
-    const {recipe_image} = recipe
+const Recipe = ({recipe}) => {
+    const {recipe_image,recipe_name,short_description,ingredients,preparing_time,calories} = recipe
     console.log(recipe)
   return (
     <div>
 
 <div className="card card-compact w-96 bg-base-100 shadow-xl">
     
-  <figure><img src={recipe_image} alt="Shoes" /></figure>
+  <figure><img className='rounded-2xl' src={recipe_image} alt="Shoes" /></figure>
   <div className="card-body">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+    <h2 className="card-title">{recipe_name}</h2>
+    <p className='border-b-2'>{short_description}</p>
+    <p>Ingredients:{ingredients.length}</p>
+
+    {
+        ingredients.map((ingredient,idx) => <Ingredients key={idx} ingredient ={ingredient}></Ingredients>)
+    }
+    <p className='border-b-2'></p>
+
+    <div className='flex gap-4'>
+            <div className='flex items-center'>
+                <p><CiClock2 /></p>
+                <p>{preparing_time}</p>
+            </div>
+
+            <div className='flex items-center'>
+                <p><RiFireLine/></p>
+                <p>{calories}</p>
+            </div>    
+
+
+        </div>
+
+    <div className="card-actions">
+        
+        
+      <button className="btn bg-[#0BE58A] rounded-[50px]">Want to Cook</button>
     </div>
   </div>
 </div>

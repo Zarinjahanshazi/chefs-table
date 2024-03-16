@@ -12,7 +12,7 @@
       "recipe_id": 2,
       "recipe_name": "Vegetarian Pad Thai",
       "short_description": "A flavorful and healthy vegetarian version of the classic Thai dish.",
-      "ingredients": ["200 g rice noodles", "1 cup tofu (cubed)", "2 eggs (beaten)", "1 bell pepper (sliced)", "1 cup bean sprouts", "3 tbsp soy sauce", "2 tbsp tamarind paste", "2 tbsp brown sugar", "2 cloves garlic (minced)", "1 lime (juiced)", "Chopped peanuts and cilantro for garnish"],
+      "ingredients": ["200 g rice noodles", "1 cup tofu (cubed)", "1 bell pepper (sliced)", "2 tbsp brown sugar", "2 cloves garlic (minced)", "Chopped peanuts and cilantro for garnish"],
       "preparing_time": "25 min",
       "calories": "350 calories",
       "recipe_image": "https://i.ibb.co/pLnpt88/2.jpg"
@@ -21,7 +21,7 @@
       "recipe_id": 3,
       "recipe_name": "Mediterranean Quinoa Salad",
       "short_description": "A refreshing and nutritious salad featuring quinoa, vegetables, and feta cheese.",
-      "ingredients": ["1 cup quinoa (cooked)", "1 cup cherry tomatoes (halved)", "1 cucumber (diced)", "1/2 cup Kalamata olives (pitted and sliced)", "1/4 cup red onion (finely chopped)", "1/4 cup crumbled feta cheese", "2 tbsp olive oil", "2 tbsp lemon juice", "1 tsp dried oregano", "Salt and pepper to taste"],
+      "ingredients": ["1 cup quinoa (cooked)", "1 cup cherry tomatoes (halved)", "1 cucumber (diced)", "1/4 cup red onion (finely chopped)", "2 tbsp lemon juice", "Salt and pepper to taste"],
       "preparing_time": "15 min",
       "calories": "250 calories",
       "recipe_image": "https://i.ibb.co/7G5hNDW/3.jpg"
@@ -30,7 +30,7 @@
       "recipe_id": 4,
       "recipe_name": "Spicy Chickpea Curry",
       "short_description": "A comforting and flavorful curry made with chickpeas, tomatoes, and spices.",
-      "ingredients": ["2 cans chickpeas (drained and rinsed)", "1 onion (chopped)", "2 cloves garlic (minced)", "1 bell pepper (chopped)", "1 can diced tomatoes", "1 can coconut milk", "2 tbsp curry powder", "1 tsp turmeric", "1/2 tsp cayenne pepper (adjust to taste)", "Salt and pepper to taste", "Fresh cilantro for garnish"],
+      "ingredients": ["2 cans chickpeas (drained and rinsed)", "1 onion (chopped)", "2 cloves garlic (minced)", "1 can diced tomatoes", "1 can coconut milk", "1 tsp turmeric", "Salt and pepper to taste"],
       "preparing_time": "30 min",
       "calories": "380 calories",
       "recipe_image": "https://i.ibb.co/42N382G/4.jpg"
@@ -39,7 +39,7 @@
       "recipe_id": 5,
       "recipe_name": "Caprese Stuffed Portobello Mushrooms",
       "short_description": "Juicy portobello mushrooms stuffed with ripe tomatoes, fresh mozzarella, and basil.",
-      "ingredients": ["4 large portobello mushrooms", "2 ripe tomatoes (sliced)", "8 oz fresh mozzarella (sliced)", "1/4 cup fresh basil leaves", "2 tbsp balsamic glaze", "2 tbsp olive oil", "Salt and pepper to taste"],
+      "ingredients": ["4 large portobello mushrooms", "2 ripe tomatoes (sliced)", "1/4 cup fresh basil leaves", "2 tbsp balsamic glaze", "2 tbsp olive oil", "Salt and pepper to taste"],
       "preparing_time": "25 min",
       "calories": "280 calories",
       "recipe_image": "https://i.ibb.co/3vCfHvx/5.jpg"
@@ -51,7 +51,7 @@
       "ingredients": ["2 lbs baby potatoes (halved)", "3 cloves garlic (minced)", "2 tbsp olive oil", "1 tbsp chopped fresh rosemary", "1 tbsp chopped fresh thyme", "Salt and pepper to taste"],
       "preparing_time": "35 min",
       "calories": "220 calories",
-      "recipe_image": "https://i.ibb.co/zrT3wv0/6.jpg"
+      "recipe_image": "https://i.ibb.co/WfyS9Vh/7.jpg"
     }
   ]
   
