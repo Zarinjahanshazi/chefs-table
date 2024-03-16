@@ -37,7 +37,7 @@ const Carts = ({carts}) => {
                     {/* head */}
                     <thead>
                     <tr>
-                        
+                        <th></th>
                         <th>Name</th>
                         <th>Time</th>
                         <th>Calories</th>
@@ -78,7 +78,7 @@ const Carts = ({carts}) => {
                     {/* head */}
                     <thead>
                     <tr>
-                        
+                        <th></th>
                         <th>Name</th>
                         <th>Time</th>
                         <th>Calories</th>
@@ -91,7 +91,7 @@ const Carts = ({carts}) => {
                     preparingItems?.map((cart,idx) => <tr key={idx} > 
                     
                     {/* <th>{idx+1}</th> */}
-
+                        <td>{idx+1}</td>
                         <td>{cart.recipe_name}</td>
                         <td>{cart.preparing_time}</td>
                         <td>{cart.calories}</td>
@@ -104,7 +104,8 @@ const Carts = ({carts}) => {
                    
                     <tr>
                         {/* <td>{idx +1}</td> */}
-                        <td>.</td>
+                        <td></td>
+                        <td></td>
                         <td>Total Time:{totalPreparingTime} min</td>
                         <td>Total Calories:{totalCalories} calories</td>
 
