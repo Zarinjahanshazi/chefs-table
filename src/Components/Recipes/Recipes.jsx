@@ -13,7 +13,7 @@ const Recipes = ({handleWantToCook}) => {
     },[])
 
   return (
-    <div className='md:w-3/5 grid grid-cols-2 '>
+    <div className='md:w-3/5 grid grid-cols-2 gap-4 '>
             
             
 
