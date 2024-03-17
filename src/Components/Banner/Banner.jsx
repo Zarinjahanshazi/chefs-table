@@ -9,7 +9,7 @@ const Banner = () => {
       <h1 className="mb-5 text-5xl font-bold">
         Discover an exceptional <span className="">cooking <br /> class</span> tailored for you!
       </h1>
-      <p className="mb-5">Quick cooking tutorial: Prep ingredients, follow recipe, adjust seasoning, cook as directed, and <br /> enjoy delicious homemade meals with ease.</p>
+      <p className="mb-5 text-lg font-normal">Quick cooking tutorial: Prep ingredients, follow recipe, adjust seasoning, cook as directed, and <br /> enjoy delicious homemade meals with ease.</p>
       
       <div className='flex justify-center gap-9'>
       <button className="btn bg-[#0BE58A] border-none rounded-[50px] text-[#150B2B]  font-semibold text-xl">Explore Now</button>
