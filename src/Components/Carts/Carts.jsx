@@ -1,7 +1,5 @@
+import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
-
-
-
 const Carts = ({carts}) => {
     const [preparingItems, setPreparingItems] = useState([]);
     const [totalPreparingTime, setTotalPreparingTime] = useState(0);
@@ -119,5 +117,11 @@ const Carts = ({carts}) => {
         </div>
     );
 };
+
+
+Carts.propTypes = {
+    carts:PropTypes.object
+}
+
 
 export default Carts;

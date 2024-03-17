@@ -1,5 +1,5 @@
 
-
+import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react'
 import Recipe from '../Recipe/Recipe'
 
@@ -29,7 +29,7 @@ const Recipes = ({handleWantToCook}) => {
 }
 
 Recipes.propTypes = {
-
+    handleWantToCook:PropTypes.func
 }
 
 export default Recipes

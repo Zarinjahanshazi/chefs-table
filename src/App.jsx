@@ -12,7 +12,7 @@ function App() {
   const handleWantToCook = (recipe) => {
     const isRecipeInCart = carts.some((cart) => cart.recipe_id === recipe.recipe_id);
     if (isRecipeInCart) {
-      toast.error('This recipe is already in your cart!');
+      toast.error('already exist');
     } else {
       const newCarts = [...carts, recipe];
       setCarts(newCarts);
@@ -25,9 +25,9 @@ function App() {
       <Banner></Banner>
       <ToastContainer />
 
-      <div className="text-center">
+      <div className="text-center mt-10">
         <h1 className="text-2xl font-bold">Our Recipes</h1>
-        <h1 className="text-base">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget <br /> urna volutpat curabitur elementum mauris aenean neque. </h1>
+        <h1 className="text-base font-normal">Our recipe: Blend fresh ingredients, season to taste, simmer slowly, and savor the delightful flavors <br /> of homemade goodness.Enjoy culinary delight! </h1>
       </div>
 
       <div className='flex max-w-9xl mx-10 mt-10'>
