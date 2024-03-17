@@ -11,7 +11,7 @@ const Recipe = ({recipe,handleWantToCook}) => {
 
 <div className="card card-compact h-[600px] bg-base-100 shadow-xl">
     
-  <figure><img className='rounded-3xl  p-2' src={recipe_image} alt="" /></figure>
+  <figure><img className='rounded-3xl w-full p-2' src={recipe_image} alt="" /></figure>
   <div className="card-body">
     <h2 className="card-title font-semibold text-xl">{recipe_name}</h2>
     <p className='border-b-2 font-normal'>{short_description}</p>
